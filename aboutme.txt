@@ -1,0 +1,32 @@
+(header h1) Journey in Codeland
+
+Skills
+Contact
+
+(p1)
+(h2) Kristel's Journey
+
+(h 3) Skills
+
+(h 4) HTML
+I know HTML
+
+(h 4) CSS
+I took my first steps into CSS
+
+(h 4) JS
+level: "I know what floating numbers are"
+
+(quote) T. Morrison: " (...) if it hasn't been written yet, you must write it."
+
+(p2)
+(h2) Kristel's Contact page
+
+(h 3) Please contact me!
+
+kristel@email.com
+
+Snail mail:
+Kristel Dreamland
+Cloud str 13
+99 Over the moon
