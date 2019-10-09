@@ -1,11 +1,25 @@
 
-   body {
+   header {
+      border-radius: 0 0 20px 20px;
+      background-image:url("about-me images/test catpic.jpg");
+      color: white;
+      padding: 50px;
+  }
+      body {
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: #751A33;
     background-color: #D4B95E}
+    #titel2 { color: #B34233}
+    #titel3 { color:#D28F33 }
     address {
       padding: 30px;
-      background-image: url("about-me images\test snail small.jpg");  
+      background-image: url("about-me images/test snail small.jpg");  
    }
-   
+   footer { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1em;
+color: rgba(26, 134, 147, 100);
+border-radius: 20px 20px 0 0 ;
+background-color: rgba(78, 162, 162, 1) ;
+padding: 50px;
+}
