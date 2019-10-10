@@ -1,23 +1,35 @@
 
-   header {
-      position: fixed;
-      top: 0px;
-      height: 80px;
-      
-      color: white;
-     
-  }
-  .monospace {
-   font-family: "Courier New", Courier, monospace;
-}
-.right {box-align: right
-}
-      body {
-         margin-top: 100px;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
+   body {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
     color: #751A33;
-    background-color: #D4B95E}
+    background-color: whitesmoke;
+}
+  header {
+    position: fixed;
+    top: 0px;
+    height: 50px;
+}
+  div.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+ .maintitle {
+    font-size: 1.2em
+}
+  .quote {
+    font-size: 0.5em;
+}
+  .right {
+    box-align: right
+}
+ul {
+   font-size: 2em;
+   list-style-type: none;
+   text-align: right;
+  }
+li {}
+
     #titel2 { color: #B34233}
     #titel3 { color:#D28F33 }
     address {
@@ -25,7 +37,7 @@
       background-image: url("about-me images/test snail small.jpg");  
    }
    main {
-      margin: 230px
+      margin: 290px
    }
    footer { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 1em;
