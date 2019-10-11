@@ -2,6 +2,8 @@
    body {
     margin-top: 100px;
     font-size: medium;
+    /*zet je een font in de body als extra verzekering, als startpunt, of beter helemaal niet?*/
+
     color: #751A33;
     background-color: whitesmoke;
 }
@@ -15,6 +17,10 @@
     background-image: url("about-me images/steep cat.png");
     background-repeat: no-repeat;
     background-color: whitesmoke;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
 }
 #headertitle {
   font-family: 'Courier New', Courier, monospace;  
@@ -37,6 +43,8 @@ ul {
   }
   a:link {
     text-decoration: none;
+    padding: 0.3em;
+    /*waarom lukt dit zonder dat dit ook bij hover staat?*/
     background-color: rgba(78, 162, 162, 0.3);
  }
  a:hover {
@@ -59,6 +67,7 @@ font-weight: bold;
 font-size: 1em;
 color: rgba(26, 134, 147, 100);
 background-color: rgba(78, 162, 162, 0.3) ;
+width: 100%;
 padding: 25px;
 bottom: 0px;
 
