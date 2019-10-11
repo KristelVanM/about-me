@@ -1,7 +1,6 @@
 
    body {
     margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     color: #751A33;
     background-color: whitesmoke;
@@ -9,26 +8,41 @@
   header {
     position: fixed;
     top: 0px;
-    height: 50px;
+    left: 0px;
+    width: 100%;
+    height: 225px;
+    font-size: x-large;
+    background-image: url("about-me images/steep cat.png");
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
 }
-  div.monospace {
-    font-family: 'Courier New', Courier, monospace;
+#headertitle {
+  font-family: 'Courier New', Courier, monospace;  
+  font-size: 2.1em;
+  padding-left: 2.2rem; 
 }
- .maintitle {
-    font-size: 1.2em
+p.headerquote {
+  font-family: 'Courier New', Courier, monospace;  
+  font-size: 0.55em;
+  font-weight: bold;
+  padding-left: 3rem;
 }
-  .quote {
-    font-size: 0.5em;
-}
-  .right {
-    box-align: right
-}
+
 ul {
-   font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+   font-size: 1.2em;
    list-style-type: none;
    text-align: right;
+   padding-right: 2em;
   }
-li {}
+  a:link {
+    text-decoration: none;
+    background-color: rgba(78, 162, 162, 0.3);
+ }
+ a:hover {
+  text-decoration: none;
+  background-color: rgba(78, 162, 162, 0.7);
+ }
 
     #titel2 { color: #B34233}
     #titel3 { color:#D28F33 }
@@ -39,10 +53,13 @@ li {}
    main {
       margin: 290px
    }
-   footer { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   footer { 
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
 font-size: 1em;
 color: rgba(26, 134, 147, 100);
-border-radius: 20px 20px 0 0 ;
-background-color: rgba(78, 162, 162, 1) ;
-padding: 50px;
+background-color: rgba(78, 162, 162, 0.3) ;
+padding: 25px;
+bottom: 0px;
+
 }
